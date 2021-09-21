@@ -11,5 +11,10 @@ $ pushd InnerApp
 $ dotnet publish --self-contained -r <RID>
 $ popd
 $ pushd SampleHost
-$ dotnet run dotnet run  -- ../InnerApp/bin/Debug/net6.0/<RID>
+$ dotnet run  -- ../InnerApp/bin/Debug/net6.0/<RID>
+Setting up resolver for monosgen-2.0 => ../InnerApp/bin/Debug/net6.0/osx-x64/libcoreclr.dylib
+Mono started
+Hello World from Mono!
+Sample run complete
+$ popd
 ```
